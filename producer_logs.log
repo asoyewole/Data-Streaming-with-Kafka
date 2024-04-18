@@ -1,0 +1,567 @@
+02/06/2024 02:12:50 PM::INFO:LOGGER FOR INFO AND WARNINGS IN ASSIGNMENT 6 - PRODUCER
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+02/06/2024 02:12:50 PM::INFO:Probing node bootstrap-0 broker version
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+02/06/2024 02:12:50 PM::INFO:Broker version identified as 2.5.0
+02/06/2024 02:12:50 PM::INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+02/06/2024 02:12:50 PM::INFO:Probing node bootstrap-0 broker version
+02/06/2024 02:12:50 PM::INFO:Broker version identified as 2.5.0
+02/06/2024 02:12:50 PM::INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=0 host=ay-virtual-machine:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to ay-virtual-machine:9092 [('127.0.1.1', 9092) IPv4]
+02/06/2024 02:12:50 PM::INFO:Probing node 0 broker version
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=0 host=ay-virtual-machine:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+02/06/2024 02:12:50 PM::INFO:Broker version identified as 2.5.0
+02/06/2024 02:12:50 PM::INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+02/06/2024 02:12:50 PM::INFO:Created topic - weather_app
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+02/06/2024 02:12:50 PM::INFO:Probing node bootstrap-0 broker version
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+02/06/2024 02:12:50 PM::INFO:Broker version identified as 2.5.0
+02/06/2024 02:12:50 PM::INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+02/06/2024 02:12:50 PM::INFO:winnipeg weather data at 2024-02-06 14:12:50.964923 captured
+02/06/2024 02:12:50 PM::INFO:winnipeg weather data at 2024-02-06 14:12:50.965438 captured
+02/06/2024 02:12:50 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:12:50 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -10,\n        "wind_speed": 22,\n        "humidity": 73\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 22,\n        "wind_speed": 12,\n        "humidity": 96\n    }\n}' transmitted successfully
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=0 host=ay-virtual-machine:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to ay-virtual-machine:9092 [('127.0.1.1', 9092) IPv4]
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=0 host=ay-virtual-machine:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+02/06/2024 02:12:50 PM::INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+02/06/2024 02:12:55 PM::INFO:winnipeg weather data at 2024-02-06 14:12:55.984871 captured
+02/06/2024 02:12:55 PM::INFO:winnipeg weather data at 2024-02-06 14:12:55.985708 captured
+02/06/2024 02:12:55 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:12:55 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -30,\n        "wind_speed": 20,\n        "humidity": 79\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 24,\n        "wind_speed": 13,\n        "humidity": 56\n    }\n}' transmitted successfully
+02/06/2024 02:13:00 PM::INFO:winnipeg weather data at 2024-02-06 14:13:00.994443 captured
+02/06/2024 02:13:00 PM::INFO:winnipeg weather data at 2024-02-06 14:13:00.994752 captured
+02/06/2024 02:13:00 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:00 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -5,\n        "wind_speed": 34,\n        "humidity": 41\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 5,\n        "wind_speed": 0,\n        "humidity": 69\n    }\n}' transmitted successfully
+02/06/2024 02:13:06 PM::INFO:winnipeg weather data at 2024-02-06 14:13:06.007018 captured
+02/06/2024 02:13:06 PM::INFO:winnipeg weather data at 2024-02-06 14:13:06.007423 captured
+02/06/2024 02:13:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -17,\n        "wind_speed": 33,\n        "humidity": 47\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 16,\n        "wind_speed": 27,\n        "humidity": 74\n    }\n}' transmitted successfully
+02/06/2024 02:13:11 PM::INFO:winnipeg weather data at 2024-02-06 14:13:11.014773 captured
+02/06/2024 02:13:11 PM::INFO:winnipeg weather data at 2024-02-06 14:13:11.015098 captured
+02/06/2024 02:13:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -24,\n        "wind_speed": 32,\n        "humidity": 55\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 20,\n        "wind_speed": 3,\n        "humidity": 52\n    }\n}' transmitted successfully
+02/06/2024 02:13:16 PM::INFO:winnipeg weather data at 2024-02-06 14:13:16.022928 captured
+02/06/2024 02:13:16 PM::INFO:winnipeg weather data at 2024-02-06 14:13:16.023385 captured
+02/06/2024 02:13:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 28,\n        "wind_speed": 13,\n        "humidity": 73\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 10,\n        "wind_speed": 7,\n        "humidity": 48\n    }\n}' transmitted successfully
+02/06/2024 02:13:21 PM::INFO:winnipeg weather data at 2024-02-06 14:13:21.033666 captured
+02/06/2024 02:13:21 PM::INFO:winnipeg weather data at 2024-02-06 14:13:21.033909 captured
+02/06/2024 02:13:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -14,\n        "wind_speed": 26,\n        "humidity": 51\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 15,\n        "wind_speed": 20,\n        "humidity": 77\n    }\n}' transmitted successfully
+02/06/2024 02:13:26 PM::INFO:winnipeg weather data at 2024-02-06 14:13:26.052259 captured
+02/06/2024 02:13:26 PM::INFO:winnipeg weather data at 2024-02-06 14:13:26.054027 captured
+02/06/2024 02:13:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -8,\n        "wind_speed": 29,\n        "humidity": 59\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -2,\n        "wind_speed": 10,\n        "humidity": 65\n    }\n}' transmitted successfully
+02/06/2024 02:13:31 PM::INFO:winnipeg weather data at 2024-02-06 14:13:31.066999 captured
+02/06/2024 02:13:31 PM::INFO:winnipeg weather data at 2024-02-06 14:13:31.067596 captured
+02/06/2024 02:13:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 27,\n        "wind_speed": 43,\n        "humidity": 78\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 21,\n        "wind_speed": 3,\n        "humidity": 66\n    }\n}' transmitted successfully
+02/06/2024 02:13:36 PM::INFO:winnipeg weather data at 2024-02-06 14:13:36.074602 captured
+02/06/2024 02:13:36 PM::INFO:winnipeg weather data at 2024-02-06 14:13:36.075084 captured
+02/06/2024 02:13:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 1,\n        "wind_speed": 36,\n        "humidity": 80\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 14,\n        "wind_speed": 3,\n        "humidity": 33\n    }\n}' transmitted successfully
+02/06/2024 02:13:41 PM::INFO:winnipeg weather data at 2024-02-06 14:13:41.080662 captured
+02/06/2024 02:13:41 PM::INFO:winnipeg weather data at 2024-02-06 14:13:41.081073 captured
+02/06/2024 02:13:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 15,\n        "wind_speed": 10,\n        "humidity": 75\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -4,\n        "wind_speed": 1,\n        "humidity": 96\n    }\n}' transmitted successfully
+02/06/2024 02:13:46 PM::INFO:winnipeg weather data at 2024-02-06 14:13:46.084687 captured
+02/06/2024 02:13:46 PM::INFO:winnipeg weather data at 2024-02-06 14:13:46.085127 captured
+02/06/2024 02:13:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 14,\n        "wind_speed": 40,\n        "humidity": 47\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 13,\n        "wind_speed": 18,\n        "humidity": 39\n    }\n}' transmitted successfully
+02/06/2024 02:13:51 PM::INFO:winnipeg weather data at 2024-02-06 14:13:51.088538 captured
+02/06/2024 02:13:51 PM::INFO:winnipeg weather data at 2024-02-06 14:13:51.089051 captured
+02/06/2024 02:13:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 5,\n        "wind_speed": 49,\n        "humidity": 67\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 17,\n        "wind_speed": 4,\n        "humidity": 88\n    }\n}' transmitted successfully
+02/06/2024 02:13:56 PM::INFO:winnipeg weather data at 2024-02-06 14:13:56.092843 captured
+02/06/2024 02:13:56 PM::INFO:winnipeg weather data at 2024-02-06 14:13:56.093303 captured
+02/06/2024 02:13:56 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:13:56 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -26,\n        "wind_speed": 43,\n        "humidity": 35\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 12,\n        "wind_speed": 26,\n        "humidity": 72\n    }\n}' transmitted successfully
+02/06/2024 02:14:01 PM::INFO:winnipeg weather data at 2024-02-06 14:14:01.101567 captured
+02/06/2024 02:14:01 PM::INFO:winnipeg weather data at 2024-02-06 14:14:01.102282 captured
+02/06/2024 02:14:01 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:01 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 6,\n        "wind_speed": 1,\n        "humidity": 77\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -8,\n        "wind_speed": 6,\n        "humidity": 93\n    }\n}' transmitted successfully
+02/06/2024 02:14:06 PM::INFO:winnipeg weather data at 2024-02-06 14:14:06.113157 captured
+02/06/2024 02:14:06 PM::INFO:winnipeg weather data at 2024-02-06 14:14:06.114159 captured
+02/06/2024 02:14:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 28,\n        "wind_speed": 46,\n        "humidity": 61\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 17,\n        "wind_speed": 5,\n        "humidity": 31\n    }\n}' transmitted successfully
+02/06/2024 02:14:11 PM::INFO:winnipeg weather data at 2024-02-06 14:14:11.128585 captured
+02/06/2024 02:14:11 PM::INFO:winnipeg weather data at 2024-02-06 14:14:11.129309 captured
+02/06/2024 02:14:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 1,\n        "wind_speed": 6,\n        "humidity": 46\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -8,\n        "wind_speed": 25,\n        "humidity": 56\n    }\n}' transmitted successfully
+02/06/2024 02:14:16 PM::INFO:winnipeg weather data at 2024-02-06 14:14:16.132910 captured
+02/06/2024 02:14:16 PM::INFO:winnipeg weather data at 2024-02-06 14:14:16.133212 captured
+02/06/2024 02:14:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -17,\n        "wind_speed": 28,\n        "humidity": 46\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -3,\n        "wind_speed": 8,\n        "humidity": 67\n    }\n}' transmitted successfully
+02/06/2024 02:14:21 PM::INFO:winnipeg weather data at 2024-02-06 14:14:21.146834 captured
+02/06/2024 02:14:21 PM::INFO:winnipeg weather data at 2024-02-06 14:14:21.147501 captured
+02/06/2024 02:14:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 22,\n        "wind_speed": 8,\n        "humidity": 71\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 15,\n        "wind_speed": 28,\n        "humidity": 30\n    }\n}' transmitted successfully
+02/06/2024 02:14:26 PM::INFO:winnipeg weather data at 2024-02-06 14:14:26.164342 captured
+02/06/2024 02:14:26 PM::INFO:winnipeg weather data at 2024-02-06 14:14:26.164762 captured
+02/06/2024 02:14:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -15,\n        "wind_speed": 42,\n        "humidity": 21\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 8,\n        "wind_speed": 10,\n        "humidity": 37\n    }\n}' transmitted successfully
+02/06/2024 02:14:31 PM::INFO:winnipeg weather data at 2024-02-06 14:14:31.173090 captured
+02/06/2024 02:14:31 PM::INFO:winnipeg weather data at 2024-02-06 14:14:31.173541 captured
+02/06/2024 02:14:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 15,\n        "wind_speed": 47,\n        "humidity": 29\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -3,\n        "wind_speed": 1,\n        "humidity": 72\n    }\n}' transmitted successfully
+02/06/2024 02:14:36 PM::INFO:winnipeg weather data at 2024-02-06 14:14:36.187036 captured
+02/06/2024 02:14:36 PM::INFO:winnipeg weather data at 2024-02-06 14:14:36.187421 captured
+02/06/2024 02:14:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -5,\n        "wind_speed": 44,\n        "humidity": 25\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 0,\n        "wind_speed": 10,\n        "humidity": 97\n    }\n}' transmitted successfully
+02/06/2024 02:14:41 PM::INFO:winnipeg weather data at 2024-02-06 14:14:41.192553 captured
+02/06/2024 02:14:41 PM::INFO:winnipeg weather data at 2024-02-06 14:14:41.193073 captured
+02/06/2024 02:14:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 8,\n        "wind_speed": 40,\n        "humidity": 27\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 17,\n        "wind_speed": 10,\n        "humidity": 58\n    }\n}' transmitted successfully
+02/06/2024 02:14:46 PM::INFO:winnipeg weather data at 2024-02-06 14:14:46.198615 captured
+02/06/2024 02:14:46 PM::INFO:winnipeg weather data at 2024-02-06 14:14:46.199342 captured
+02/06/2024 02:14:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -17,\n        "wind_speed": 18,\n        "humidity": 32\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 23,\n        "wind_speed": 26,\n        "humidity": 56\n    }\n}' transmitted successfully
+02/06/2024 02:14:51 PM::INFO:winnipeg weather data at 2024-02-06 14:14:51.206963 captured
+02/06/2024 02:14:51 PM::INFO:winnipeg weather data at 2024-02-06 14:14:51.207428 captured
+02/06/2024 02:14:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 26,\n        "wind_speed": 11,\n        "humidity": 71\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 6,\n        "wind_speed": 7,\n        "humidity": 55\n    }\n}' transmitted successfully
+02/06/2024 02:14:56 PM::INFO:winnipeg weather data at 2024-02-06 14:14:56.216788 captured
+02/06/2024 02:14:56 PM::INFO:winnipeg weather data at 2024-02-06 14:14:56.217245 captured
+02/06/2024 02:14:56 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:14:56 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 26,\n        "wind_speed": 8,\n        "humidity": 59\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 2,\n        "wind_speed": 7,\n        "humidity": 37\n    }\n}' transmitted successfully
+02/06/2024 02:15:01 PM::INFO:winnipeg weather data at 2024-02-06 14:15:01.221496 captured
+02/06/2024 02:15:01 PM::INFO:winnipeg weather data at 2024-02-06 14:15:01.222144 captured
+02/06/2024 02:15:01 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:01 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 12,\n        "wind_speed": 14,\n        "humidity": 68\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -1,\n        "wind_speed": 15,\n        "humidity": 50\n    }\n}' transmitted successfully
+02/06/2024 02:15:06 PM::INFO:winnipeg weather data at 2024-02-06 14:15:06.228383 captured
+02/06/2024 02:15:06 PM::INFO:winnipeg weather data at 2024-02-06 14:15:06.228834 captured
+02/06/2024 02:15:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -22,\n        "wind_speed": 40,\n        "humidity": 49\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -3,\n        "wind_speed": 4,\n        "humidity": 78\n    }\n}' transmitted successfully
+02/06/2024 02:15:11 PM::INFO:winnipeg weather data at 2024-02-06 14:15:11.232923 captured
+02/06/2024 02:15:11 PM::INFO:winnipeg weather data at 2024-02-06 14:15:11.233399 captured
+02/06/2024 02:15:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 26,\n        "wind_speed": 2,\n        "humidity": 62\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 9,\n        "wind_speed": 4,\n        "humidity": 94\n    }\n}' transmitted successfully
+02/06/2024 02:15:16 PM::INFO:winnipeg weather data at 2024-02-06 14:15:16.239580 captured
+02/06/2024 02:15:16 PM::INFO:winnipeg weather data at 2024-02-06 14:15:16.240058 captured
+02/06/2024 02:15:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -29,\n        "wind_speed": 23,\n        "humidity": 49\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 10,\n        "wind_speed": 19,\n        "humidity": 89\n    }\n}' transmitted successfully
+02/06/2024 02:15:21 PM::INFO:winnipeg weather data at 2024-02-06 14:15:21.254768 captured
+02/06/2024 02:15:21 PM::INFO:winnipeg weather data at 2024-02-06 14:15:21.255409 captured
+02/06/2024 02:15:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -24,\n        "wind_speed": 7,\n        "humidity": 52\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 8,\n        "wind_speed": 27,\n        "humidity": 91\n    }\n}' transmitted successfully
+02/06/2024 02:15:26 PM::INFO:winnipeg weather data at 2024-02-06 14:15:26.261009 captured
+02/06/2024 02:15:26 PM::INFO:winnipeg weather data at 2024-02-06 14:15:26.261758 captured
+02/06/2024 02:15:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -13,\n        "wind_speed": 44,\n        "humidity": 35\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -6,\n        "wind_speed": 12,\n        "humidity": 31\n    }\n}' transmitted successfully
+02/06/2024 02:15:31 PM::INFO:winnipeg weather data at 2024-02-06 14:15:31.275080 captured
+02/06/2024 02:15:31 PM::INFO:winnipeg weather data at 2024-02-06 14:15:31.275634 captured
+02/06/2024 02:15:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 29,\n        "wind_speed": 16,\n        "humidity": 65\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -2,\n        "wind_speed": 8,\n        "humidity": 99\n    }\n}' transmitted successfully
+02/06/2024 02:15:36 PM::INFO:winnipeg weather data at 2024-02-06 14:15:36.284108 captured
+02/06/2024 02:15:36 PM::INFO:winnipeg weather data at 2024-02-06 14:15:36.284972 captured
+02/06/2024 02:15:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 18,\n        "wind_speed": 38,\n        "humidity": 70\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 1,\n        "wind_speed": 30,\n        "humidity": 41\n    }\n}' transmitted successfully
+02/06/2024 02:15:41 PM::INFO:winnipeg weather data at 2024-02-06 14:15:41.293859 captured
+02/06/2024 02:15:41 PM::INFO:winnipeg weather data at 2024-02-06 14:15:41.294941 captured
+02/06/2024 02:15:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -6,\n        "wind_speed": 21,\n        "humidity": 73\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 12,\n        "wind_speed": 25,\n        "humidity": 31\n    }\n}' transmitted successfully
+02/06/2024 02:15:46 PM::INFO:winnipeg weather data at 2024-02-06 14:15:46.307710 captured
+02/06/2024 02:15:46 PM::INFO:winnipeg weather data at 2024-02-06 14:15:46.308055 captured
+02/06/2024 02:15:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 13,\n        "wind_speed": 19,\n        "humidity": 57\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -2,\n        "wind_speed": 1,\n        "humidity": 46\n    }\n}' transmitted successfully
+02/06/2024 02:15:51 PM::INFO:winnipeg weather data at 2024-02-06 14:15:51.324837 captured
+02/06/2024 02:15:51 PM::INFO:winnipeg weather data at 2024-02-06 14:15:51.325698 captured
+02/06/2024 02:15:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -26,\n        "wind_speed": 26,\n        "humidity": 31\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -2,\n        "wind_speed": 21,\n        "humidity": 48\n    }\n}' transmitted successfully
+02/06/2024 02:15:56 PM::INFO:winnipeg weather data at 2024-02-06 14:15:56.332799 captured
+02/06/2024 02:15:56 PM::INFO:winnipeg weather data at 2024-02-06 14:15:56.333286 captured
+02/06/2024 02:15:56 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:15:56 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 21,\n        "wind_speed": 1,\n        "humidity": 78\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 5,\n        "wind_speed": 1,\n        "humidity": 61\n    }\n}' transmitted successfully
+02/06/2024 02:16:01 PM::INFO:winnipeg weather data at 2024-02-06 14:16:01.346216 captured
+02/06/2024 02:16:01 PM::INFO:winnipeg weather data at 2024-02-06 14:16:01.347058 captured
+02/06/2024 02:16:01 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:01 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -3,\n        "wind_speed": 7,\n        "humidity": 43\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -9,\n        "wind_speed": 11,\n        "humidity": 79\n    }\n}' transmitted successfully
+02/06/2024 02:16:06 PM::INFO:winnipeg weather data at 2024-02-06 14:16:06.355123 captured
+02/06/2024 02:16:06 PM::INFO:winnipeg weather data at 2024-02-06 14:16:06.355574 captured
+02/06/2024 02:16:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 5,\n        "wind_speed": 38,\n        "humidity": 36\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -7,\n        "wind_speed": 0,\n        "humidity": 95\n    }\n}' transmitted successfully
+02/06/2024 02:16:11 PM::INFO:winnipeg weather data at 2024-02-06 14:16:11.368639 captured
+02/06/2024 02:16:11 PM::INFO:winnipeg weather data at 2024-02-06 14:16:11.369259 captured
+02/06/2024 02:16:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -6,\n        "wind_speed": 1,\n        "humidity": 31\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -3,\n        "wind_speed": 5,\n        "humidity": 50\n    }\n}' transmitted successfully
+02/06/2024 02:16:16 PM::INFO:winnipeg weather data at 2024-02-06 14:16:16.375046 captured
+02/06/2024 02:16:16 PM::INFO:winnipeg weather data at 2024-02-06 14:16:16.375725 captured
+02/06/2024 02:16:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 24,\n        "wind_speed": 6,\n        "humidity": 23\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -7,\n        "wind_speed": 26,\n        "humidity": 57\n    }\n}' transmitted successfully
+02/06/2024 02:16:21 PM::INFO:winnipeg weather data at 2024-02-06 14:16:21.390751 captured
+02/06/2024 02:16:21 PM::INFO:winnipeg weather data at 2024-02-06 14:16:21.391288 captured
+02/06/2024 02:16:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 1,\n        "wind_speed": 40,\n        "humidity": 65\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 11,\n        "wind_speed": 15,\n        "humidity": 45\n    }\n}' transmitted successfully
+02/06/2024 02:16:26 PM::INFO:winnipeg weather data at 2024-02-06 14:16:26.400276 captured
+02/06/2024 02:16:26 PM::INFO:winnipeg weather data at 2024-02-06 14:16:26.401096 captured
+02/06/2024 02:16:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -1,\n        "wind_speed": 29,\n        "humidity": 58\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 14,\n        "wind_speed": 29,\n        "humidity": 70\n    }\n}' transmitted successfully
+02/06/2024 02:16:31 PM::INFO:winnipeg weather data at 2024-02-06 14:16:31.409976 captured
+02/06/2024 02:16:31 PM::INFO:winnipeg weather data at 2024-02-06 14:16:31.410544 captured
+02/06/2024 02:16:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -7,\n        "wind_speed": 4,\n        "humidity": 76\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 5,\n        "wind_speed": 0,\n        "humidity": 98\n    }\n}' transmitted successfully
+02/06/2024 02:16:36 PM::INFO:winnipeg weather data at 2024-02-06 14:16:36.428658 captured
+02/06/2024 02:16:36 PM::INFO:winnipeg weather data at 2024-02-06 14:16:36.429219 captured
+02/06/2024 02:16:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 30,\n        "wind_speed": 20,\n        "humidity": 57\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 11,\n        "wind_speed": 22,\n        "humidity": 76\n    }\n}' transmitted successfully
+02/06/2024 02:16:41 PM::INFO:winnipeg weather data at 2024-02-06 14:16:41.444782 captured
+02/06/2024 02:16:41 PM::INFO:winnipeg weather data at 2024-02-06 14:16:41.445404 captured
+02/06/2024 02:16:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -7,\n        "wind_speed": 21,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 15,\n        "wind_speed": 22,\n        "humidity": 53\n    }\n}' transmitted successfully
+02/06/2024 02:16:46 PM::INFO:winnipeg weather data at 2024-02-06 14:16:46.453746 captured
+02/06/2024 02:16:46 PM::INFO:winnipeg weather data at 2024-02-06 14:16:46.454362 captured
+02/06/2024 02:16:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -19,\n        "wind_speed": 41,\n        "humidity": 42\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 23,\n        "wind_speed": 17,\n        "humidity": 58\n    }\n}' transmitted successfully
+02/06/2024 02:16:51 PM::INFO:winnipeg weather data at 2024-02-06 14:16:51.471769 captured
+02/06/2024 02:16:51 PM::INFO:winnipeg weather data at 2024-02-06 14:16:51.472391 captured
+02/06/2024 02:16:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 29,\n        "wind_speed": 33,\n        "humidity": 62\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 23,\n        "wind_speed": 14,\n        "humidity": 31\n    }\n}' transmitted successfully
+02/06/2024 02:16:56 PM::INFO:winnipeg weather data at 2024-02-06 14:16:56.481065 captured
+02/06/2024 02:16:56 PM::INFO:winnipeg weather data at 2024-02-06 14:16:56.481743 captured
+02/06/2024 02:16:56 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:16:56 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 4,\n        "wind_speed": 6,\n        "humidity": 62\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 19,\n        "wind_speed": 25,\n        "humidity": 52\n    }\n}' transmitted successfully
+02/06/2024 02:17:01 PM::INFO:winnipeg weather data at 2024-02-06 14:17:01.491929 captured
+02/06/2024 02:17:01 PM::INFO:winnipeg weather data at 2024-02-06 14:17:01.492597 captured
+02/06/2024 02:17:01 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:01 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -5,\n        "wind_speed": 40,\n        "humidity": 33\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 12,\n        "wind_speed": 18,\n        "humidity": 99\n    }\n}' transmitted successfully
+02/06/2024 02:17:06 PM::INFO:winnipeg weather data at 2024-02-06 14:17:06.502653 captured
+02/06/2024 02:17:06 PM::INFO:winnipeg weather data at 2024-02-06 14:17:06.503144 captured
+02/06/2024 02:17:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 22,\n        "wind_speed": 23,\n        "humidity": 20\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 8,\n        "wind_speed": 9,\n        "humidity": 77\n    }\n}' transmitted successfully
+02/06/2024 02:17:11 PM::INFO:winnipeg weather data at 2024-02-06 14:17:11.508576 captured
+02/06/2024 02:17:11 PM::INFO:winnipeg weather data at 2024-02-06 14:17:11.509047 captured
+02/06/2024 02:17:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -17,\n        "wind_speed": 15,\n        "humidity": 24\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 3,\n        "wind_speed": 25,\n        "humidity": 86\n    }\n}' transmitted successfully
+02/06/2024 02:17:16 PM::INFO:winnipeg weather data at 2024-02-06 14:17:16.516606 captured
+02/06/2024 02:17:16 PM::INFO:winnipeg weather data at 2024-02-06 14:17:16.517035 captured
+02/06/2024 02:17:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -24,\n        "wind_speed": 2,\n        "humidity": 28\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 3,\n        "wind_speed": 23,\n        "humidity": 42\n    }\n}' transmitted successfully
+02/06/2024 02:17:21 PM::INFO:winnipeg weather data at 2024-02-06 14:17:21.524504 captured
+02/06/2024 02:17:21 PM::INFO:winnipeg weather data at 2024-02-06 14:17:21.525337 captured
+02/06/2024 02:17:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -23,\n        "wind_speed": 10,\n        "humidity": 44\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 1,\n        "wind_speed": 6,\n        "humidity": 65\n    }\n}' transmitted successfully
+02/06/2024 02:17:26 PM::INFO:winnipeg weather data at 2024-02-06 14:17:26.531282 captured
+02/06/2024 02:17:26 PM::INFO:winnipeg weather data at 2024-02-06 14:17:26.531698 captured
+02/06/2024 02:17:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 27,\n        "wind_speed": 26,\n        "humidity": 20\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -1,\n        "wind_speed": 17,\n        "humidity": 54\n    }\n}' transmitted successfully
+02/06/2024 02:17:31 PM::INFO:winnipeg weather data at 2024-02-06 14:17:31.543175 captured
+02/06/2024 02:17:31 PM::INFO:winnipeg weather data at 2024-02-06 14:17:31.543894 captured
+02/06/2024 02:17:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -30,\n        "wind_speed": 29,\n        "humidity": 43\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -4,\n        "wind_speed": 21,\n        "humidity": 38\n    }\n}' transmitted successfully
+02/06/2024 02:17:36 PM::INFO:winnipeg weather data at 2024-02-06 14:17:36.561203 captured
+02/06/2024 02:17:36 PM::INFO:winnipeg weather data at 2024-02-06 14:17:36.561589 captured
+02/06/2024 02:17:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 1,\n        "wind_speed": 23,\n        "humidity": 49\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 11,\n        "wind_speed": 17,\n        "humidity": 95\n    }\n}' transmitted successfully
+02/06/2024 02:17:41 PM::INFO:winnipeg weather data at 2024-02-06 14:17:41.576107 captured
+02/06/2024 02:17:41 PM::INFO:winnipeg weather data at 2024-02-06 14:17:41.576610 captured
+02/06/2024 02:17:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -11,\n        "wind_speed": 15,\n        "humidity": 22\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 13,\n        "wind_speed": 5,\n        "humidity": 68\n    }\n}' transmitted successfully
+02/06/2024 02:17:46 PM::INFO:winnipeg weather data at 2024-02-06 14:17:46.582358 captured
+02/06/2024 02:17:46 PM::INFO:winnipeg weather data at 2024-02-06 14:17:46.583505 captured
+02/06/2024 02:17:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -9,\n        "wind_speed": 26,\n        "humidity": 26\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 11,\n        "wind_speed": 11,\n        "humidity": 66\n    }\n}' transmitted successfully
+02/06/2024 02:17:51 PM::INFO:winnipeg weather data at 2024-02-06 14:17:51.592514 captured
+02/06/2024 02:17:51 PM::INFO:winnipeg weather data at 2024-02-06 14:17:51.593024 captured
+02/06/2024 02:17:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 15,\n        "wind_speed": 29,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 25,\n        "wind_speed": 6,\n        "humidity": 30\n    }\n}' transmitted successfully
+02/06/2024 02:17:56 PM::INFO:winnipeg weather data at 2024-02-06 14:17:56.602516 captured
+02/06/2024 02:17:56 PM::INFO:winnipeg weather data at 2024-02-06 14:17:56.603413 captured
+02/06/2024 02:17:56 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:17:56 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 29,\n        "wind_speed": 50,\n        "humidity": 63\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -6,\n        "wind_speed": 5,\n        "humidity": 73\n    }\n}' transmitted successfully
+02/06/2024 02:18:01 PM::INFO:winnipeg weather data at 2024-02-06 14:18:01.608849 captured
+02/06/2024 02:18:01 PM::INFO:winnipeg weather data at 2024-02-06 14:18:01.609339 captured
+02/06/2024 02:18:01 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:01 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 4,\n        "wind_speed": 48,\n        "humidity": 55\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 13,\n        "wind_speed": 30,\n        "humidity": 44\n    }\n}' transmitted successfully
+02/06/2024 02:18:06 PM::INFO:winnipeg weather data at 2024-02-06 14:18:06.623334 captured
+02/06/2024 02:18:06 PM::INFO:winnipeg weather data at 2024-02-06 14:18:06.624005 captured
+02/06/2024 02:18:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -2,\n        "wind_speed": 3,\n        "humidity": 54\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -2,\n        "wind_speed": 14,\n        "humidity": 78\n    }\n}' transmitted successfully
+02/06/2024 02:18:11 PM::INFO:winnipeg weather data at 2024-02-06 14:18:11.634866 captured
+02/06/2024 02:18:11 PM::INFO:winnipeg weather data at 2024-02-06 14:18:11.635445 captured
+02/06/2024 02:18:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 29,\n        "wind_speed": 13,\n        "humidity": 37\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 23,\n        "wind_speed": 13,\n        "humidity": 72\n    }\n}' transmitted successfully
+02/06/2024 02:18:16 PM::INFO:winnipeg weather data at 2024-02-06 14:18:16.640668 captured
+02/06/2024 02:18:16 PM::INFO:winnipeg weather data at 2024-02-06 14:18:16.641119 captured
+02/06/2024 02:18:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 3,\n        "wind_speed": 38,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 8,\n        "wind_speed": 29,\n        "humidity": 36\n    }\n}' transmitted successfully
+02/06/2024 02:18:21 PM::INFO:winnipeg weather data at 2024-02-06 14:18:21.648679 captured
+02/06/2024 02:18:21 PM::INFO:winnipeg weather data at 2024-02-06 14:18:21.649194 captured
+02/06/2024 02:18:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 0,\n        "wind_speed": 22,\n        "humidity": 23\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 7,\n        "wind_speed": 9,\n        "humidity": 82\n    }\n}' transmitted successfully
+02/06/2024 02:18:26 PM::INFO:winnipeg weather data at 2024-02-06 14:18:26.661090 captured
+02/06/2024 02:18:26 PM::INFO:winnipeg weather data at 2024-02-06 14:18:26.661889 captured
+02/06/2024 02:18:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -20,\n        "wind_speed": 43,\n        "humidity": 62\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -1,\n        "wind_speed": 17,\n        "humidity": 78\n    }\n}' transmitted successfully
+02/06/2024 02:18:31 PM::INFO:winnipeg weather data at 2024-02-06 14:18:31.679925 captured
+02/06/2024 02:18:31 PM::INFO:winnipeg weather data at 2024-02-06 14:18:31.680670 captured
+02/06/2024 02:18:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 16,\n        "wind_speed": 38,\n        "humidity": 31\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 1,\n        "wind_speed": 15,\n        "humidity": 70\n    }\n}' transmitted successfully
+02/06/2024 02:18:36 PM::INFO:winnipeg weather data at 2024-02-06 14:18:36.685023 captured
+02/06/2024 02:18:36 PM::INFO:winnipeg weather data at 2024-02-06 14:18:36.685527 captured
+02/06/2024 02:18:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -25,\n        "wind_speed": 22,\n        "humidity": 20\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 14,\n        "wind_speed": 11,\n        "humidity": 79\n    }\n}' transmitted successfully
+02/06/2024 02:18:41 PM::INFO:winnipeg weather data at 2024-02-06 14:18:41.693852 captured
+02/06/2024 02:18:41 PM::INFO:winnipeg weather data at 2024-02-06 14:18:41.694559 captured
+02/06/2024 02:18:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -5,\n        "wind_speed": 49,\n        "humidity": 76\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 0,\n        "wind_speed": 14,\n        "humidity": 69\n    }\n}' transmitted successfully
+02/06/2024 02:18:46 PM::INFO:winnipeg weather data at 2024-02-06 14:18:46.701405 captured
+02/06/2024 02:18:46 PM::INFO:winnipeg weather data at 2024-02-06 14:18:46.701998 captured
+02/06/2024 02:18:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 1,\n        "wind_speed": 48,\n        "humidity": 66\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -10,\n        "wind_speed": 27,\n        "humidity": 48\n    }\n}' transmitted successfully
+02/06/2024 02:18:51 PM::INFO:winnipeg weather data at 2024-02-06 14:18:51.709420 captured
+02/06/2024 02:18:51 PM::INFO:winnipeg weather data at 2024-02-06 14:18:51.709822 captured
+02/06/2024 02:18:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -5,\n        "wind_speed": 23,\n        "humidity": 20\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -4,\n        "wind_speed": 12,\n        "humidity": 76\n    }\n}' transmitted successfully
+02/06/2024 02:18:56 PM::INFO:winnipeg weather data at 2024-02-06 14:18:56.720895 captured
+02/06/2024 02:18:56 PM::INFO:winnipeg weather data at 2024-02-06 14:18:56.722121 captured
+02/06/2024 02:18:56 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:18:56 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 27,\n        "wind_speed": 38,\n        "humidity": 58\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 18,\n        "wind_speed": 3,\n        "humidity": 38\n    }\n}' transmitted successfully
+02/06/2024 02:19:01 PM::INFO:winnipeg weather data at 2024-02-06 14:19:01.729761 captured
+02/06/2024 02:19:01 PM::INFO:winnipeg weather data at 2024-02-06 14:19:01.730504 captured
+02/06/2024 02:19:01 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:01 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -11,\n        "wind_speed": 48,\n        "humidity": 72\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 25,\n        "wind_speed": 20,\n        "humidity": 52\n    }\n}' transmitted successfully
+02/06/2024 02:19:06 PM::INFO:winnipeg weather data at 2024-02-06 14:19:06.736674 captured
+02/06/2024 02:19:06 PM::INFO:winnipeg weather data at 2024-02-06 14:19:06.737311 captured
+02/06/2024 02:19:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 25,\n        "wind_speed": 41,\n        "humidity": 33\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -4,\n        "wind_speed": 19,\n        "humidity": 80\n    }\n}' transmitted successfully
+02/06/2024 02:19:11 PM::INFO:winnipeg weather data at 2024-02-06 14:19:11.744590 captured
+02/06/2024 02:19:11 PM::INFO:winnipeg weather data at 2024-02-06 14:19:11.745169 captured
+02/06/2024 02:19:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 16,\n        "wind_speed": 20,\n        "humidity": 70\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -4,\n        "wind_speed": 14,\n        "humidity": 80\n    }\n}' transmitted successfully
+02/06/2024 02:19:16 PM::INFO:winnipeg weather data at 2024-02-06 14:19:16.757287 captured
+02/06/2024 02:19:16 PM::INFO:winnipeg weather data at 2024-02-06 14:19:16.758188 captured
+02/06/2024 02:19:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -30,\n        "wind_speed": 47,\n        "humidity": 62\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -5,\n        "wind_speed": 24,\n        "humidity": 72\n    }\n}' transmitted successfully
+02/06/2024 02:19:21 PM::INFO:winnipeg weather data at 2024-02-06 14:19:21.776341 captured
+02/06/2024 02:19:21 PM::INFO:winnipeg weather data at 2024-02-06 14:19:21.776707 captured
+02/06/2024 02:19:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -24,\n        "wind_speed": 42,\n        "humidity": 59\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 9,\n        "wind_speed": 27,\n        "humidity": 93\n    }\n}' transmitted successfully
+02/06/2024 02:19:26 PM::INFO:winnipeg weather data at 2024-02-06 14:19:26.791608 captured
+02/06/2024 02:19:26 PM::INFO:winnipeg weather data at 2024-02-06 14:19:26.792166 captured
+02/06/2024 02:19:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -6,\n        "wind_speed": 40,\n        "humidity": 27\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 8,\n        "wind_speed": 20,\n        "humidity": 79\n    }\n}' transmitted successfully
+02/06/2024 02:19:31 PM::INFO:winnipeg weather data at 2024-02-06 14:19:31.804431 captured
+02/06/2024 02:19:31 PM::INFO:winnipeg weather data at 2024-02-06 14:19:31.805464 captured
+02/06/2024 02:19:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 9,\n        "wind_speed": 27,\n        "humidity": 51\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 5,\n        "wind_speed": 2,\n        "humidity": 78\n    }\n}' transmitted successfully
+02/06/2024 02:19:36 PM::INFO:winnipeg weather data at 2024-02-06 14:19:36.825782 captured
+02/06/2024 02:19:36 PM::INFO:winnipeg weather data at 2024-02-06 14:19:36.826552 captured
+02/06/2024 02:19:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -19,\n        "wind_speed": 13,\n        "humidity": 55\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -10,\n        "wind_speed": 13,\n        "humidity": 46\n    }\n}' transmitted successfully
+02/06/2024 02:19:41 PM::INFO:winnipeg weather data at 2024-02-06 14:19:41.837065 captured
+02/06/2024 02:19:41 PM::INFO:winnipeg weather data at 2024-02-06 14:19:41.837666 captured
+02/06/2024 02:19:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 19,\n        "wind_speed": 7,\n        "humidity": 61\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 23,\n        "wind_speed": 24,\n        "humidity": 79\n    }\n}' transmitted successfully
+02/06/2024 02:19:46 PM::INFO:winnipeg weather data at 2024-02-06 14:19:46.842776 captured
+02/06/2024 02:19:46 PM::INFO:winnipeg weather data at 2024-02-06 14:19:46.843478 captured
+02/06/2024 02:19:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 0,\n        "wind_speed": 42,\n        "humidity": 58\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 5,\n        "wind_speed": 4,\n        "humidity": 32\n    }\n}' transmitted successfully
+02/06/2024 02:19:51 PM::INFO:winnipeg weather data at 2024-02-06 14:19:51.859622 captured
+02/06/2024 02:19:51 PM::INFO:winnipeg weather data at 2024-02-06 14:19:51.860260 captured
+02/06/2024 02:19:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 24,\n        "wind_speed": 46,\n        "humidity": 67\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -9,\n        "wind_speed": 15,\n        "humidity": 66\n    }\n}' transmitted successfully
+02/06/2024 02:19:56 PM::INFO:winnipeg weather data at 2024-02-06 14:19:56.864965 captured
+02/06/2024 02:19:56 PM::INFO:winnipeg weather data at 2024-02-06 14:19:56.865305 captured
+02/06/2024 02:19:56 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:19:56 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -24,\n        "wind_speed": 6,\n        "humidity": 60\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 2,\n        "wind_speed": 1,\n        "humidity": 53\n    }\n}' transmitted successfully
+02/06/2024 02:20:01 PM::INFO:winnipeg weather data at 2024-02-06 14:20:01.872211 captured
+02/06/2024 02:20:01 PM::INFO:winnipeg weather data at 2024-02-06 14:20:01.873108 captured
+02/06/2024 02:20:01 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:01 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 23,\n        "wind_speed": 18,\n        "humidity": 34\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 15,\n        "wind_speed": 11,\n        "humidity": 84\n    }\n}' transmitted successfully
+02/06/2024 02:20:06 PM::INFO:winnipeg weather data at 2024-02-06 14:20:06.877872 captured
+02/06/2024 02:20:06 PM::INFO:winnipeg weather data at 2024-02-06 14:20:06.878540 captured
+02/06/2024 02:20:06 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:06 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -20,\n        "wind_speed": 47,\n        "humidity": 47\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -1,\n        "wind_speed": 15,\n        "humidity": 87\n    }\n}' transmitted successfully
+02/06/2024 02:20:11 PM::INFO:winnipeg weather data at 2024-02-06 14:20:11.887458 captured
+02/06/2024 02:20:11 PM::INFO:winnipeg weather data at 2024-02-06 14:20:11.888005 captured
+02/06/2024 02:20:11 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:11 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -5,\n        "wind_speed": 36,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 21,\n        "wind_speed": 11,\n        "humidity": 82\n    }\n}' transmitted successfully
+02/06/2024 02:20:16 PM::INFO:winnipeg weather data at 2024-02-06 14:20:16.896989 captured
+02/06/2024 02:20:16 PM::INFO:winnipeg weather data at 2024-02-06 14:20:16.897735 captured
+02/06/2024 02:20:16 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:16 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -1,\n        "wind_speed": 45,\n        "humidity": 27\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 5,\n        "wind_speed": 8,\n        "humidity": 98\n    }\n}' transmitted successfully
+02/06/2024 02:20:21 PM::INFO:winnipeg weather data at 2024-02-06 14:20:21.908780 captured
+02/06/2024 02:20:21 PM::INFO:winnipeg weather data at 2024-02-06 14:20:21.909270 captured
+02/06/2024 02:20:21 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:21 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -27,\n        "wind_speed": 14,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -5,\n        "wind_speed": 9,\n        "humidity": 46\n    }\n}' transmitted successfully
+02/06/2024 02:20:26 PM::INFO:winnipeg weather data at 2024-02-06 14:20:26.925038 captured
+02/06/2024 02:20:26 PM::INFO:winnipeg weather data at 2024-02-06 14:20:26.925507 captured
+02/06/2024 02:20:26 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:26 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 0,\n        "wind_speed": 14,\n        "humidity": 34\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -10,\n        "wind_speed": 22,\n        "humidity": 52\n    }\n}' transmitted successfully
+02/06/2024 02:20:31 PM::INFO:winnipeg weather data at 2024-02-06 14:20:31.939263 captured
+02/06/2024 02:20:31 PM::INFO:winnipeg weather data at 2024-02-06 14:20:31.939913 captured
+02/06/2024 02:20:31 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:31 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -20,\n        "wind_speed": 36,\n        "humidity": 53\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 8,\n        "wind_speed": 23,\n        "humidity": 38\n    }\n}' transmitted successfully
+02/06/2024 02:20:36 PM::INFO:winnipeg weather data at 2024-02-06 14:20:36.950094 captured
+02/06/2024 02:20:36 PM::INFO:winnipeg weather data at 2024-02-06 14:20:36.950660 captured
+02/06/2024 02:20:36 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:36 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 2,\n        "wind_speed": 15,\n        "humidity": 29\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 7,\n        "wind_speed": 17,\n        "humidity": 41\n    }\n}' transmitted successfully
+02/06/2024 02:20:41 PM::INFO:winnipeg weather data at 2024-02-06 14:20:41.960974 captured
+02/06/2024 02:20:41 PM::INFO:winnipeg weather data at 2024-02-06 14:20:41.961591 captured
+02/06/2024 02:20:41 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:41 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 7,\n        "wind_speed": 28,\n        "humidity": 73\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 11,\n        "wind_speed": 23,\n        "humidity": 95\n    }\n}' transmitted successfully
+02/06/2024 02:20:46 PM::INFO:winnipeg weather data at 2024-02-06 14:20:46.974052 captured
+02/06/2024 02:20:46 PM::INFO:winnipeg weather data at 2024-02-06 14:20:46.974739 captured
+02/06/2024 02:20:46 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:46 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -28,\n        "wind_speed": 15,\n        "humidity": 26\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 3,\n        "wind_speed": 29,\n        "humidity": 70\n    }\n}' transmitted successfully
+02/06/2024 02:20:51 PM::INFO:winnipeg weather data at 2024-02-06 14:20:51.991263 captured
+02/06/2024 02:20:51 PM::INFO:winnipeg weather data at 2024-02-06 14:20:51.991782 captured
+02/06/2024 02:20:51 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:51 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 28,\n        "wind_speed": 34,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 3,\n        "wind_speed": 1,\n        "humidity": 64\n    }\n}' transmitted successfully
+02/06/2024 02:20:57 PM::INFO:winnipeg weather data at 2024-02-06 14:20:57.004897 captured
+02/06/2024 02:20:57 PM::INFO:winnipeg weather data at 2024-02-06 14:20:57.005359 captured
+02/06/2024 02:20:57 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:20:57 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -18,\n        "wind_speed": 3,\n        "humidity": 61\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -10,\n        "wind_speed": 22,\n        "humidity": 51\n    }\n}' transmitted successfully
+02/06/2024 02:21:02 PM::INFO:winnipeg weather data at 2024-02-06 14:21:02.009316 captured
+02/06/2024 02:21:02 PM::INFO:winnipeg weather data at 2024-02-06 14:21:02.009760 captured
+02/06/2024 02:21:02 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:02 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -13,\n        "wind_speed": 37,\n        "humidity": 51\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 11,\n        "wind_speed": 2,\n        "humidity": 55\n    }\n}' transmitted successfully
+02/06/2024 02:21:07 PM::INFO:winnipeg weather data at 2024-02-06 14:21:07.018199 captured
+02/06/2024 02:21:07 PM::INFO:winnipeg weather data at 2024-02-06 14:21:07.018723 captured
+02/06/2024 02:21:07 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:07 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 11,\n        "wind_speed": 41,\n        "humidity": 62\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 0,\n        "wind_speed": 6,\n        "humidity": 33\n    }\n}' transmitted successfully
+02/06/2024 02:21:12 PM::INFO:winnipeg weather data at 2024-02-06 14:21:12.025391 captured
+02/06/2024 02:21:12 PM::INFO:winnipeg weather data at 2024-02-06 14:21:12.025837 captured
+02/06/2024 02:21:12 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:12 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 14,\n        "wind_speed": 41,\n        "humidity": 76\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 10,\n        "wind_speed": 18,\n        "humidity": 66\n    }\n}' transmitted successfully
+02/06/2024 02:21:17 PM::INFO:winnipeg weather data at 2024-02-06 14:21:17.033219 captured
+02/06/2024 02:21:17 PM::INFO:winnipeg weather data at 2024-02-06 14:21:17.033842 captured
+02/06/2024 02:21:17 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:17 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 4,\n        "wind_speed": 17,\n        "humidity": 51\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -1,\n        "wind_speed": 5,\n        "humidity": 90\n    }\n}' transmitted successfully
+02/06/2024 02:21:22 PM::INFO:winnipeg weather data at 2024-02-06 14:21:22.042771 captured
+02/06/2024 02:21:22 PM::INFO:winnipeg weather data at 2024-02-06 14:21:22.043239 captured
+02/06/2024 02:21:22 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:22 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 5,\n        "wind_speed": 8,\n        "humidity": 43\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 9,\n        "wind_speed": 26,\n        "humidity": 94\n    }\n}' transmitted successfully
+02/06/2024 02:21:27 PM::INFO:winnipeg weather data at 2024-02-06 14:21:27.054590 captured
+02/06/2024 02:21:27 PM::INFO:winnipeg weather data at 2024-02-06 14:21:27.055044 captured
+02/06/2024 02:21:27 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:27 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -7,\n        "wind_speed": 0,\n        "humidity": 51\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -6,\n        "wind_speed": 24,\n        "humidity": 64\n    }\n}' transmitted successfully
+02/06/2024 02:21:32 PM::INFO:winnipeg weather data at 2024-02-06 14:21:32.060365 captured
+02/06/2024 02:21:32 PM::INFO:winnipeg weather data at 2024-02-06 14:21:32.060846 captured
+02/06/2024 02:21:32 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:32 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 7,\n        "wind_speed": 9,\n        "humidity": 41\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 17,\n        "wind_speed": 26,\n        "humidity": 75\n    }\n}' transmitted successfully
+02/06/2024 02:21:37 PM::INFO:winnipeg weather data at 2024-02-06 14:21:37.067153 captured
+02/06/2024 02:21:37 PM::INFO:winnipeg weather data at 2024-02-06 14:21:37.067691 captured
+02/06/2024 02:21:37 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:37 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 16,\n        "wind_speed": 36,\n        "humidity": 39\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 13,\n        "wind_speed": 19,\n        "humidity": 79\n    }\n}' transmitted successfully
+02/06/2024 02:21:42 PM::INFO:winnipeg weather data at 2024-02-06 14:21:42.072904 captured
+02/06/2024 02:21:42 PM::INFO:winnipeg weather data at 2024-02-06 14:21:42.073641 captured
+02/06/2024 02:21:42 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:42 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -6,\n        "wind_speed": 49,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 2,\n        "wind_speed": 25,\n        "humidity": 91\n    }\n}' transmitted successfully
+02/06/2024 02:21:47 PM::INFO:winnipeg weather data at 2024-02-06 14:21:47.076815 captured
+02/06/2024 02:21:47 PM::INFO:winnipeg weather data at 2024-02-06 14:21:47.077322 captured
+02/06/2024 02:21:47 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:47 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 12,\n        "wind_speed": 19,\n        "humidity": 76\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -10,\n        "wind_speed": 3,\n        "humidity": 74\n    }\n}' transmitted successfully
+02/06/2024 02:21:52 PM::INFO:winnipeg weather data at 2024-02-06 14:21:52.087249 captured
+02/06/2024 02:21:52 PM::INFO:winnipeg weather data at 2024-02-06 14:21:52.088191 captured
+02/06/2024 02:21:52 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:52 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -17,\n        "wind_speed": 8,\n        "humidity": 64\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 19,\n        "wind_speed": 24,\n        "humidity": 67\n    }\n}' transmitted successfully
+02/06/2024 02:21:57 PM::INFO:winnipeg weather data at 2024-02-06 14:21:57.106185 captured
+02/06/2024 02:21:57 PM::INFO:winnipeg weather data at 2024-02-06 14:21:57.106787 captured
+02/06/2024 02:21:57 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:21:57 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 16,\n        "wind_speed": 13,\n        "humidity": 55\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 16,\n        "wind_speed": 1,\n        "humidity": 86\n    }\n}' transmitted successfully
+02/06/2024 02:22:02 PM::INFO:winnipeg weather data at 2024-02-06 14:22:02.113000 captured
+02/06/2024 02:22:02 PM::INFO:winnipeg weather data at 2024-02-06 14:22:02.113717 captured
+02/06/2024 02:22:02 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:02 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -18,\n        "wind_speed": 1,\n        "humidity": 42\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 2,\n        "wind_speed": 1,\n        "humidity": 39\n    }\n}' transmitted successfully
+02/06/2024 02:22:07 PM::INFO:winnipeg weather data at 2024-02-06 14:22:07.125016 captured
+02/06/2024 02:22:07 PM::INFO:winnipeg weather data at 2024-02-06 14:22:07.126237 captured
+02/06/2024 02:22:07 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:07 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -3,\n        "wind_speed": 32,\n        "humidity": 59\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 7,\n        "wind_speed": 25,\n        "humidity": 45\n    }\n}' transmitted successfully
+02/06/2024 02:22:12 PM::INFO:winnipeg weather data at 2024-02-06 14:22:12.141785 captured
+02/06/2024 02:22:12 PM::INFO:winnipeg weather data at 2024-02-06 14:22:12.142588 captured
+02/06/2024 02:22:12 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:12 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -8,\n        "wind_speed": 16,\n        "humidity": 65\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 4,\n        "wind_speed": 25,\n        "humidity": 62\n    }\n}' transmitted successfully
+02/06/2024 02:22:17 PM::INFO:winnipeg weather data at 2024-02-06 14:22:17.148806 captured
+02/06/2024 02:22:17 PM::INFO:winnipeg weather data at 2024-02-06 14:22:17.149597 captured
+02/06/2024 02:22:17 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:17 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -25,\n        "wind_speed": 39,\n        "humidity": 40\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 25,\n        "wind_speed": 4,\n        "humidity": 40\n    }\n}' transmitted successfully
+02/06/2024 02:22:22 PM::INFO:winnipeg weather data at 2024-02-06 14:22:22.154615 captured
+02/06/2024 02:22:22 PM::INFO:winnipeg weather data at 2024-02-06 14:22:22.155305 captured
+02/06/2024 02:22:22 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:22 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -24,\n        "wind_speed": 10,\n        "humidity": 37\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 25,\n        "wind_speed": 19,\n        "humidity": 98\n    }\n}' transmitted successfully
+02/06/2024 02:22:27 PM::INFO:winnipeg weather data at 2024-02-06 14:22:27.171010 captured
+02/06/2024 02:22:27 PM::INFO:winnipeg weather data at 2024-02-06 14:22:27.172074 captured
+02/06/2024 02:22:27 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:27 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -17,\n        "wind_speed": 19,\n        "humidity": 41\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 9,\n        "wind_speed": 11,\n        "humidity": 32\n    }\n}' transmitted successfully
+02/06/2024 02:22:32 PM::INFO:winnipeg weather data at 2024-02-06 14:22:32.180612 captured
+02/06/2024 02:22:32 PM::INFO:winnipeg weather data at 2024-02-06 14:22:32.181054 captured
+02/06/2024 02:22:32 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:32 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 13,\n        "wind_speed": 27,\n        "humidity": 66\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -10,\n        "wind_speed": 25,\n        "humidity": 90\n    }\n}' transmitted successfully
+02/06/2024 02:22:37 PM::INFO:winnipeg weather data at 2024-02-06 14:22:37.196433 captured
+02/06/2024 02:22:37 PM::INFO:winnipeg weather data at 2024-02-06 14:22:37.197504 captured
+02/06/2024 02:22:37 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:37 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -18,\n        "wind_speed": 27,\n        "humidity": 43\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 4,\n        "wind_speed": 1,\n        "humidity": 65\n    }\n}' transmitted successfully
+02/06/2024 02:22:42 PM::INFO:winnipeg weather data at 2024-02-06 14:22:42.214798 captured
+02/06/2024 02:22:42 PM::INFO:winnipeg weather data at 2024-02-06 14:22:42.215080 captured
+02/06/2024 02:22:42 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:42 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -6,\n        "wind_speed": 48,\n        "humidity": 79\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 16,\n        "wind_speed": 10,\n        "humidity": 66\n    }\n}' transmitted successfully
+02/06/2024 02:22:47 PM::INFO:winnipeg weather data at 2024-02-06 14:22:47.221044 captured
+02/06/2024 02:22:47 PM::INFO:winnipeg weather data at 2024-02-06 14:22:47.221453 captured
+02/06/2024 02:22:47 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:47 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -3,\n        "wind_speed": 18,\n        "humidity": 73\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 6,\n        "wind_speed": 26,\n        "humidity": 71\n    }\n}' transmitted successfully
+02/06/2024 02:22:52 PM::INFO:winnipeg weather data at 2024-02-06 14:22:52.232126 captured
+02/06/2024 02:22:52 PM::INFO:winnipeg weather data at 2024-02-06 14:22:52.232668 captured
+02/06/2024 02:22:52 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:52 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -2,\n        "wind_speed": 43,\n        "humidity": 61\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 23,\n        "wind_speed": 0,\n        "humidity": 92\n    }\n}' transmitted successfully
+02/06/2024 02:22:57 PM::INFO:winnipeg weather data at 2024-02-06 14:22:57.245882 captured
+02/06/2024 02:22:57 PM::INFO:winnipeg weather data at 2024-02-06 14:22:57.246929 captured
+02/06/2024 02:22:57 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:22:57 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -16,\n        "wind_speed": 37,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -6,\n        "wind_speed": 17,\n        "humidity": 40\n    }\n}' transmitted successfully
+02/06/2024 02:23:02 PM::INFO:winnipeg weather data at 2024-02-06 14:23:02.267438 captured
+02/06/2024 02:23:02 PM::INFO:winnipeg weather data at 2024-02-06 14:23:02.267925 captured
+02/06/2024 02:23:02 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:02 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -13,\n        "wind_speed": 47,\n        "humidity": 43\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -4,\n        "wind_speed": 19,\n        "humidity": 31\n    }\n}' transmitted successfully
+02/06/2024 02:23:07 PM::INFO:winnipeg weather data at 2024-02-06 14:23:07.283407 captured
+02/06/2024 02:23:07 PM::INFO:winnipeg weather data at 2024-02-06 14:23:07.284091 captured
+02/06/2024 02:23:07 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:07 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -18,\n        "wind_speed": 47,\n        "humidity": 76\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 7,\n        "wind_speed": 0,\n        "humidity": 66\n    }\n}' transmitted successfully
+02/06/2024 02:23:12 PM::INFO:winnipeg weather data at 2024-02-06 14:23:12.297559 captured
+02/06/2024 02:23:12 PM::INFO:winnipeg weather data at 2024-02-06 14:23:12.298232 captured
+02/06/2024 02:23:12 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:12 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 11,\n        "wind_speed": 24,\n        "humidity": 24\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -3,\n        "wind_speed": 5,\n        "humidity": 37\n    }\n}' transmitted successfully
+02/06/2024 02:23:17 PM::INFO:winnipeg weather data at 2024-02-06 14:23:17.311622 captured
+02/06/2024 02:23:17 PM::INFO:winnipeg weather data at 2024-02-06 14:23:17.312711 captured
+02/06/2024 02:23:17 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:17 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -3,\n        "wind_speed": 8,\n        "humidity": 28\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -2,\n        "wind_speed": 1,\n        "humidity": 99\n    }\n}' transmitted successfully
+02/06/2024 02:23:22 PM::INFO:winnipeg weather data at 2024-02-06 14:23:22.321680 captured
+02/06/2024 02:23:22 PM::INFO:winnipeg weather data at 2024-02-06 14:23:22.322113 captured
+02/06/2024 02:23:22 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:22 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -20,\n        "wind_speed": 20,\n        "humidity": 21\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 24,\n        "wind_speed": 24,\n        "humidity": 88\n    }\n}' transmitted successfully
+02/06/2024 02:23:27 PM::INFO:winnipeg weather data at 2024-02-06 14:23:27.330277 captured
+02/06/2024 02:23:27 PM::INFO:winnipeg weather data at 2024-02-06 14:23:27.330693 captured
+02/06/2024 02:23:27 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:27 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 11,\n        "wind_speed": 20,\n        "humidity": 64\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -4,\n        "wind_speed": 28,\n        "humidity": 73\n    }\n}' transmitted successfully
+02/06/2024 02:23:32 PM::INFO:winnipeg weather data at 2024-02-06 14:23:32.342529 captured
+02/06/2024 02:23:32 PM::INFO:winnipeg weather data at 2024-02-06 14:23:32.343240 captured
+02/06/2024 02:23:32 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:32 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -13,\n        "wind_speed": 23,\n        "humidity": 73\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 13,\n        "wind_speed": 28,\n        "humidity": 41\n    }\n}' transmitted successfully
+02/06/2024 02:23:37 PM::INFO:winnipeg weather data at 2024-02-06 14:23:37.360046 captured
+02/06/2024 02:23:37 PM::INFO:winnipeg weather data at 2024-02-06 14:23:37.360825 captured
+02/06/2024 02:23:37 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:37 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 0,\n        "wind_speed": 50,\n        "humidity": 77\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 16,\n        "wind_speed": 27,\n        "humidity": 59\n    }\n}' transmitted successfully
+02/06/2024 02:23:42 PM::INFO:winnipeg weather data at 2024-02-06 14:23:42.379394 captured
+02/06/2024 02:23:42 PM::INFO:winnipeg weather data at 2024-02-06 14:23:42.380160 captured
+02/06/2024 02:23:42 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:42 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -7,\n        "wind_speed": 6,\n        "humidity": 79\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 21,\n        "wind_speed": 21,\n        "humidity": 66\n    }\n}' transmitted successfully
+02/06/2024 02:23:47 PM::INFO:winnipeg weather data at 2024-02-06 14:23:47.392644 captured
+02/06/2024 02:23:47 PM::INFO:winnipeg weather data at 2024-02-06 14:23:47.393507 captured
+02/06/2024 02:23:47 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:47 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -15,\n        "wind_speed": 9,\n        "humidity": 59\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 21,\n        "wind_speed": 11,\n        "humidity": 86\n    }\n}' transmitted successfully
+02/06/2024 02:23:52 PM::INFO:winnipeg weather data at 2024-02-06 14:23:52.397868 captured
+02/06/2024 02:23:52 PM::INFO:winnipeg weather data at 2024-02-06 14:23:52.398460 captured
+02/06/2024 02:23:52 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:52 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": -21,\n        "wind_speed": 24,\n        "humidity": 56\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 17,\n        "wind_speed": 22,\n        "humidity": 49\n    }\n}' transmitted successfully
+02/06/2024 02:23:57 PM::INFO:winnipeg weather data at 2024-02-06 14:23:57.404868 captured
+02/06/2024 02:23:57 PM::INFO:winnipeg weather data at 2024-02-06 14:23:57.405339 captured
+02/06/2024 02:23:57 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:23:57 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 19,\n        "wind_speed": 45,\n        "humidity": 38\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": 21,\n        "wind_speed": 19,\n        "humidity": 52\n    }\n}' transmitted successfully
+02/06/2024 02:24:02 PM::INFO:winnipeg weather data at 2024-02-06 14:24:02.416102 captured
+02/06/2024 02:24:02 PM::INFO:winnipeg weather data at 2024-02-06 14:24:02.416483 captured
+02/06/2024 02:24:02 PM::INFO:converted weather data to json file encoded as utf-8
+02/06/2024 02:24:02 PM::INFO:b'{\n    "winnipeg": {\n        "city": "Winnipeg",\n        "temp": 15,\n        "wind_speed": 45,\n        "humidity": 79\n    },\n    "vancouver": {\n        "city": "Vancouver",\n        "temp": -9,\n        "wind_speed": 23,\n        "humidity": 70\n    }\n}' transmitted successfully
+02/06/2024 02:24:03 PM::INFO:user terminated after tranmitting 134 records to topic
+02/06/2024 02:24:03 PM::INFO:Closing the Kafka producer with 0 secs timeout.
+02/06/2024 02:24:03 PM::INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
