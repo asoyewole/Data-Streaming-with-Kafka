@@ -16,4 +16,4 @@ This project delved into the fundamentals of data streaming processes, employing
 - Scripts were executed from the terminal, with zookeeper and Kafka broker services initiated prior to running the producer and consumer scripts.
 
 **Project Conclusion:**
-This project provided a practical demonstration of streaming data processing using Kafka, showcasing seamless integration with Python and PostgreSQL. By successfully loading 134 records into each database table, it underscored the effectiveness of Kafka in facilitating real-time data ingestion and processing. The project files, including scripts and logs, are available in a zipped folder alongside this report.
+This project provided a practical demonstration of streaming data processing using Kafka, showcasing seamless integration with Python and PostgreSQL. By successfully loading 134 records into each database table, it underscored the effectiveness of Kafka in facilitating real-time data ingestion and processing.
